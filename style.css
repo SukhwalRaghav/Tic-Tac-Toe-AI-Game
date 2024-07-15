@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #548687;
+    text-align: center;
+}
+
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 20%;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    font-size: 70px;
+    color: #b0413e;
+    background-color: #ffffc7;
+    font-weight: bolder;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.box:hover {
+    background-color: #e6e6a6;
+    transform: scale(1.05);
+}
+
+#resetgame,
+#newgame,
+#playerVsPlayer,
+#playerVsComputer {
+    padding: 12px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.888);
+    color: wheat;
+    font-size: larger;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#resetgame:hover,
+#newgame:hover,
+#playerVsPlayer:hover,
+#playerVsComputer:hover {
+    background-color: #444;
+    transform: scale(1.05);
+}
+
+#msg {
+    color: antiquewhite;
+    font-size: 50px;
+}
+
+.msg-container {
+    height: 70px;
+}
+
+.hide {
+    display: none;
+}

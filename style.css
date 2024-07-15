@@ -49,7 +49,7 @@ body {
 #playerVsPlayer,
 #playerVsComputer {
     padding: 12px;
-    margin: 10px 5px;
+    margin: 10px 5px; /* Add margin for better alignment */
     border-radius: 15px;
     border: none;
     background-color: rgba(0, 0, 0, 0.888);
@@ -94,7 +94,7 @@ body {
     }
 
     #msg {
-        font-size: 30px;
+        font-size: 5px;
     }
 
     #resetgame,
@@ -114,29 +114,5 @@ body {
         flex-direction: column;
         align-items: center;
         gap: 10px;
-    }
-}
-
-@media (max-width: 480px) {
-    #msg {
-        font-size: 24px;
-    }
-
-    #resetgame,
-    #newgame,
-    #playerVsPlayer,
-    #playerVsComputer {
-        width: 80%;
-        margin: 5px auto;
-    }
-
-    .game {
-        gap: 1vmin;
-    }
-
-    .box {
-        height: 20vmin;
-        width: 20vmin;
-        font-size: 40px;
     }
 }
